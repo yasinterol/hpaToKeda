@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- autoscaling_v1_hpawatcher.yaml
+# +kubebuilder:scaffold:manifestskustomizesamples

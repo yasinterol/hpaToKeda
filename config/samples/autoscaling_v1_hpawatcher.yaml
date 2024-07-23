@@ -1,0 +1,9 @@
+apiVersion: autoscaling.mydomain.com/v1
+kind: HPAWatcher
+metadata:
+  labels:
+    app.kubernetes.io/name: hpaToKeda
+    app.kubernetes.io/managed-by: kustomize
+  name: hpawatcher-sample
+spec:
+  # TODO(user): Add fields here
